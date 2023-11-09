@@ -17,7 +17,7 @@ setuptools.setup(
     author_email=AUTHOR_EMAIL,
     description = "This is my CNN classification problem",
     long_description= long_description,
-    long_description_content = "text/markdown",
+    long_description_content_type = "text/markdown",
     url = f"https://github.com/{AUTHOR_NAME}/{REPO_NAME}",
 
     project_urls = {
@@ -26,6 +26,5 @@ setuptools.setup(
     },
     
     package_dir = {"":"src"},
-    packages=setuptools.find_packages(where = "src")
-
+    packages=setuptools.find_packages(where="src")
 )
