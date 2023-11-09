@@ -15,14 +15,14 @@ setuptools.setup(
     version = __version__,
     author = AUTHOR_NAME,
     author_email=AUTHOR_EMAIL,
-    description = "This is my CNN classification problem"
+    description = "This is my CNN classification problem",
     long_description= long_description,
     long_description_content = "text/markdown",
     url = f"https://github.com/{AUTHOR_NAME}/{REPO_NAME}",
 
     project_urls = {
 
-        "Bug Tracker" = f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues"
+        "Bug Tracker" : f"https://github.com/{AUTHOR_NAME}/{REPO_NAME}/issues"
     },
     
     package_dir = {"":"src"},
