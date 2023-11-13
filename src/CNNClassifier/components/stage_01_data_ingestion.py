@@ -9,7 +9,8 @@ from CNNClassifier.utils import utils
 
 
 class DataIngestion:
-    def __init__(self):
+    def __init__(self,config:DataIngestionConfig):
+        self.config = config
         pass
 
     def download_file(self):
