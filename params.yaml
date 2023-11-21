@@ -1,0 +1,4 @@
+#For defining the parameters of models
+
+AUGMENTATION: True
+LEARNING_RATE: 0.01
